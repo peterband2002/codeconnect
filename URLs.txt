@@ -1,0 +1,2 @@
+Link do CDNjs para utilização do React não instalado
+https://cdnjs.com/libraries/react

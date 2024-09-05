@@ -1,0 +1,14 @@
+O React-DOM é quem permite a conexão do código JS com a árvore elementos do HTML (DOM)
+Parâmetros no React são conhecidos como props
+
+Caso eu queira utilizar os componentes de React como tags HTML. Eu tenho que passar "children" como parâmetro para a função(componente). Ex:
+
+Chamada do componente:
+<Titulo>Título</Titulo>
+
+JSX:
+function Titulo({children}) {
+	return(
+		<h1>{children}</h1>
+	)
+}
